@@ -8,56 +8,50 @@
   --cloud: #f4f4fd;
 }
 body {
-  color: #434455;
+  color: var(--SLATE, #434455)
   font-family: Roboto, sans-serif;
   line-height: 24px;
   background-color: #fff;
 }
-a {
-  text-decoration: none;
-}
 .list {
-  color: var(--dark, #2e2f42);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.32px;
   list-style: none;
 }
-
-.link {
-  color: var(--primary-brand, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
+.logo {
+  font-family: Raleway, sans-serif;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand, #4d5ae5);
 }
 
 .studio {
   color: var(--dark, #2e2f42);
-  text-decoration: none;
 }
-
 .list-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--dark, #2e2f42);
+  letter-spacing: 0.02em
+  color: var(var(--dark));
 }
+.list-nav::hoover {color: var(--pressed-state);}
+.list-nav::visited {color: var(--pressed-state) }
 .links a {
-  color: var(--adress, #434455);
+  color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
 }
+.data-adress {font-style: normal}
 ul {
   list-style-type: none;
 }
-
+.link {
+  text-decoration: none;
+}
 button {
   background-color: var(--primary-brand, #4d5ae5);
   font-family: Roboto;
@@ -94,10 +88,15 @@ button {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-
+.footer-text {
+  background-color: var(--dark);
+}
+.studio-2 {
+  color: var(--cloud);
+}
 .footer-text p {
   color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
+  font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
