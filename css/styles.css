@@ -8,34 +8,44 @@
   --cloud: #f4f4fd;
 }
 body {
-  color: , #434455;
+  color: #434455;
   font-family: Roboto, sans-serif;
   line-height: 24px;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
 }
-
-.logo {
-  color: var(--primary-brand, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.studio {
-  color: var(--dark, #2e2f42);
-}
-
-.navigation {
+.list {
   color: var(--dark, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.32px;
+  list-style: none;
+}
+
+.link {
+  color: var(--primary-brand, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio {
+  color: var(--dark, #2e2f42);
+  text-decoration: none;
+}
+
+.list-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark, #2e2f42);
 }
 .links a {
   color: var(--adress, #434455);
