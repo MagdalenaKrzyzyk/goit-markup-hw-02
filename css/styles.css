@@ -1,0 +1,95 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --adress: #fafafe;
+  --white: #fff;
+  --SLATE: #434455;
+  --cloud: #f4f4fd;
+}
+body {
+  color: , #434455;
+  font-family: Roboto, sans-serif;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--primary-brand, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio {
+  color: var(--dark, #2e2f42);
+}
+
+.navigation {
+  color: var(--dark, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.links a {
+  color: var(--adress, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: var(--primary-brand, #4d5ae5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: var(--white, #fff);
+  text-align: center;
+}
+.buttons li:hover {
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.buttons:hover {
+  color: var(--pressed-state #404bbf);
+}
+
+.images-title h2 {
+  color: var(--dark, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.images-title p {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.footer-text p {
+  color: var(--cloud, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
