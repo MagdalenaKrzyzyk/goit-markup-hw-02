@@ -39,7 +39,7 @@ body {
 .list-nav:hover {
   color: var(--pressed-state);
 }
-.list-nav:visited {
+.list-nav:focus {
   color: var(--pressed-state);
 }
 .adress {
@@ -55,7 +55,7 @@ body {
 .adress-adds:hover {
   color: var(--pressed-state);
 }
-.adress-adds:visited {
+.adress-adds:focus {
   color: var(--pressed-state);
 }
 ul {
@@ -81,7 +81,7 @@ ul {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  color: var(--cloud);
+  color: var(--white);
   text-align: center;
   cursor: pointer;
 }
@@ -143,9 +143,11 @@ ul {
   cursor: pointer;
 }
 .button:hover {
+  color: var(--white);
   background-color: var(--pressed-state);
 }
 .button:focus {
+  color: var(--white);
   background-color: var(--pressed-state);
 }
 
