@@ -90,8 +90,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
-  margin-right: 76px;
-  width: 115px;
   text-transform: uppercase;
 }
 .logo-bottom {
