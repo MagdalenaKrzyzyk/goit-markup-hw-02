@@ -21,7 +21,7 @@ body {
   background-color: var(--white);
 }
 .adress {
-  font-size: normal;
+  font-style: normal;
 }
 .button {
   font-weight: 500;
@@ -95,9 +95,11 @@ body {
   color: var(--iris);
   margin-right: 76px;
   width: 115px;
+  text-transform: uppercase;
 }
 .logo-bottom {
   margin-bottom: 16px;
+  text-transform: uppercase;
 }
 .name {
   font-weight: 700;
@@ -132,13 +134,14 @@ body {
 .section-one {
   background-color: var(--navy-blue);
 }
-.section-tree {
+.section-three {
   background-color: var(--cloud);
 }
 .strengths-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .strengths-description {
