@@ -1,0 +1,111 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: var(--white);
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.employee-position {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud);
+}
+.link {
+  text-decoration: none;
+}
+.link-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--navy-blue);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+  margin-right: 76px;
+  width: 115px;
+}
+.logo-bottom {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.name {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  color: var(--white);
+}
+
+.photo-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.photo-mark {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: var(--navy-blue);
+}
+.section-one {
+  background-color: var(--navy-blue);
+}
+.studio {
+  color: var(--dark, #2e2f42);
+}
+.studio-a {
+  color: var(--cloud);
+}
