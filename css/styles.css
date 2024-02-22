@@ -15,10 +15,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--SLATE);
+  color: var(--slate);
   line-height: 24px;
   letter-spacing: 0.02em;
   background-color: var(--white);
+}
+.adress {
+  font-size: normal;
 }
 .button {
   font-weight: 500;
@@ -29,20 +32,34 @@ body {
   background: var(--iris);
   cursor: pointer;
 }
+.button:hover {
+  background-color: var(--ocean);
+}
+.button:focus {
+  background-color: var(--ocean);
+}
 .contacts {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
+}
+.contacts:hover {
+  color: var(--ocean);
+}
+.contacts:focus {
+  color: var(--ocean);
 }
 .employee-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 .employee-position {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--slate);
 }
 .footer {
   background-color: var(--navy-blue);
@@ -51,6 +68,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud);
+}
+.hidden {
 }
 .link {
   text-decoration: none;
@@ -61,32 +80,39 @@ body {
   line-height: 1.5;
   color: var(--navy-blue);
 }
+.link-menu:hover {
+  color: var(--ocean);
+}
+.link-menu:focus {
+  color: var(--ocean);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
-  text-transform: uppercase;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
   margin-right: 76px;
   width: 115px;
 }
 .logo-bottom {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .name {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 
-.photo-text {
+.photo-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .photo-mark {
@@ -97,15 +123,33 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 .section-one {
   background-color: var(--navy-blue);
+}
+.section-tree {
+  background-color: var(--cloud);
+}
+.strengths-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.strengths-description {
+  color: var(--slate);
 }
 .studio {
   color: var(--dark, #2e2f42);
 }
 .studio-a {
   color: var(--cloud);
+}
+.team-list {
+  background-color: var(--white);
 }
